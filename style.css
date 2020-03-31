@@ -1,0 +1,381 @@
+body{
+	}
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: white;
+    
+    /* Background styles */
+    background-image: linear-gradient(rgba(0,0,0, 0.5),rgba(0,0,0, 0.5)), url(hero.jpeg);
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 150px;
+    
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Text styles */
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    
+    /* Border styles */
+    border: 3px solid white;
+    border-radius: 20px;
+    
+    /* Background styles */
+    background-color: rgba(147, 112, 219, 0.8);
+    font-family : box;
+}
+.hero h1 {
+    /* Text styles */
+    font-size: 5em;
+    
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-family: h1;
+    color : rgb(216, 159, 51);
+}
+.hero h2{
+	font-size : 250%;
+	font-family : h2;
+	}
+nav{
+	display : flex;
+	background-color : rgba(0,0,0,1);
+	color : rgb(255,255,255);
+	width : 100vw;
+	height : 10vh;
+	align-items : center;
+	justify-content : space-between;
+	font-size : 400%;
+	font-family : h2;
+	overflow : hidden;
+	position : fixed;
+	box-shadow : -4px 4px 13px rgb(240,240,240);
+	}
+form{
+	text-align : center;
+	padding : 10%;
+	}
+.sel select{
+	background-color : white;
+	font-family : box;
+	font-size : 200%;
+	color : rgb(216, 159, 51);
+	width : 100%;
+	border-radius : 25px;
+	padding : 2%;
+	border : 3px solid rgb(216, 159, 51);
+	}
+.sel select:hover{
+	background-color : rgb(216, 159, 51);
+	color : white;
+	}
+label{
+	font-family : box;
+	font-size : 150%;
+	}
+input{
+	color : rgb(216, 159, 51);
+	font-family : box;
+	font-size : 100%;
+	padding : 1%;
+	width : 90%;
+	border : 3px solid rgb(216, 159, 51);
+	border-radius : 25px;
+	margin-top : 5%;
+	text-align : center;
+	}
+.promo{
+	background-color : rgb(216,159,51);
+	border-radius : 1px;
+	box-shadow : 2px 2px 6px grey;
+	padding : 5% 7%;
+	}
+input:hover{
+	background-color : rgb(216,159,51);
+	color : white;
+	}
+a{
+	color: rgb(216,159,51);
+	}
+#plane{
+	color  : rgb(216, 159, 51);
+	margin-right : 2%;
+	}
+.subs{
+	margin : 8px auto;
+	display : flex;
+	justify-content : center;
+	}
+.subscribe{
+	background-color : black;
+	padding : 5px 10px;
+	}
+label a{
+	color : white;
+	text-decoration: none;
+	}
+label a:hover{
+	text-decoration : underline;
+	color : black;
+	}
+input.check {
+   margin-right:0px;
+   width : 20px;
+   
+}
+.sel option{
+	background-color : white;
+	color : black;
+	}
+.pointe{
+	display : flex;
+	}
+nav a{
+	color : white;
+	}
+.last{
+	margin-right : 5%;
+	}
+#shop{
+	margin-left : 5%;
+	}
+.menu, .order{
+	font-size : 50%;
+	font-family : h3;
+	color : white;
+	text-decoration : none;
+	padding : 2%;
+	}
+.point{
+	width : 20px;
+	height : 20px;
+	}
+.menu:hover, .order:hover{
+	background-color : white;
+	color : black;
+	}
+@font-face {
+	font-family : h1;
+	src : url(font6.ttf);
+	}
+@font-face {
+	font-family : h2;
+	src : url(font4.ttf);
+	}
+@font-face {
+	font-family : a;
+	src : url(font8.ttf);
+	}
+@font-face {
+	font-family : box;
+	src : url(font8.ttf);
+	}
+@font-face {
+	font-family : h3;
+	src : url(font10.ttf);
+	}
+@font-face {
+	font-family : boxes;
+	src : url(font5.ttf);
+	}
+h4, h3{
+	font-size : 250%;
+	color : rgb(216, 159,51);
+	font-family : boxes;
+}
+h4{
+	color : white;
+	font-size : 200%;
+	text-align : center;
+	}
+p{
+	font-size : 150%;
+	font-family : box;
+	}
+.im{
+	background-color : black;
+	border-radius : 3%;
+	}
+.images{
+	display : flex;
+	flex-wrap : wrap;
+	padding : 10%;
+	justify-content : center;
+	}
+img{
+	margin : 5px;
+	border-radius : 5px;
+	}
+button{
+	color : white;
+	font-family : box;
+	border :1px solid rgb(216, 159, 51);
+	background-color :black;
+	padding :2%;
+	font-size : 150%;
+	border-radius : 1px;
+	box-shadow : 2px 2px 6px rgb(216, 159, 51);
+	}
+button:hover{
+	background-color : rgb(216, 159, 51);
+	box-shadow : 2px 2px 6px black;
+	width : 120%;
+	}
+.bt{
+	display : flex;
+	justify-content : center;
+	}
+	
+.hours {
+	display : flex;
+	margin : auto;
+	}
+.menubody{
+	background-color : black;
+	}
+.days{
+	margin-top : -10px;
+	font-family : text;
+	font-size : 100%;
+	margin-left : 10%;
+	}
+.rule{
+	background-color : black;
+	width : 1px;
+	display : inline-block;
+	height : 200px;
+	margin-right : 10px;
+	}
+.time{
+	margin-top : -19px;
+	font-family : text;
+	font-size : 100%;
+	margin-left : 10px;
+	display : inline-block;
+	}
+.bottom{
+	background-color : black;
+	color : white;
+	border-radius : 3% 0 3% 0;
+	padding  : 3%;
+	}
+.bottom a{
+	color : rgb(216,159,51);
+	text-decoration : none;
+	}
+.bottom a:hover{
+	color : white;
+	text-decoration : underline;
+	}
+.media{
+	display : flex;
+	justify-content : center;
+	}
+.media a{
+	font-size : 70px;
+	margin : 0 5%;
+	}
+.fud img{
+	width: 140px;
+	height : 140px;
+	margin : 5px;
+	border-radius : 40%;
+	box-shadow : 10px 10px 20px black;
+	}
+.fud p{
+	text-align : center;
+	color : white;
+	font-size : 80%;
+	box-shadow : 10px 10px 20px black;
+	border-radius : 40%;
+	}
+.fud del{
+	color : black;
+	}
+.foods{
+	margin : 2%;
+	display : flex;
+	flex-wrap : wrap;
+	background-color : rgb(216, 159, 51);
+	border-radius : 8px 0 8px 0;
+	padding : 3% 2%;
+	justify-content : center;
+	}
+
+	
+@media (max-width : 720px)
+{
+	.hero h1{
+		font-size : 200%;
+		}
+	.hero h2{
+		font-size : 150%;
+		}
+	.hero .btn{
+		width : 80px;
+		font-size : 100%;
+		}
+	nav{
+		font-size : 180%;
+		}
+	.media a{
+		font-size : 30px;
+		}
+	
+}
+@media (min-width : 721px)
+	{
+	#bar{
+		display : none;
+		}
+	h2{
+		font-size : 200%;
+		}
+	.menu .order{
+		font-size : 100%;
+		}
+	h3{
+		font-size : 600%;
+		}
+	img{
+		width : 200px;
+		margin : 20px;
+		height : 180px;
+		}
+	.point{
+		width : 30px;
+		height : 30px;
+		}
+	p{
+		font-size : 250%;
+		}
+	button {
+		font-size : 200%;
+		padding: 5%;
+		}
+	.fud img{
+		width : 200px;
+		height : 200px;
+	}
